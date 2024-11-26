@@ -1,0 +1,9 @@
+function ejemploLet() {
+  if (true) {
+    let mensaje = "Estoy dentro del bloque"; 
+    console.log(mensaje); 
+  }
+  // console.log(mensaje); 
+}
+
+ejemploLet(); //

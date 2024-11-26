@@ -1,0 +1,9 @@
+function ejemploVar() {
+  if (true) {
+    var mensaje = "Estoy dentro del bloque"; // Declaración con var
+  }
+  console.log(mensaje); // Se puede acceder fuera del bloque
+}
+
+// Llamada a la función
+ejemploVar(); // Imprime: Estoy dentro del bloque

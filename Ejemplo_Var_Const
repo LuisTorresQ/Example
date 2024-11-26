@@ -1,0 +1,7 @@
+function multiplicaConConst(a, b) {
+  const resultado = a * b; // Declaración con const
+  console.log("La multiplicación (usando const) es:", resultado);
+}
+
+// Llamada a la función
+multiplicaConConst(10, 5); 

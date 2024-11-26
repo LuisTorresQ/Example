@@ -1,0 +1,21 @@
+Variables en JS
+-------var--------
+Variable global o de función.
+Tiene un alcance de función (no de bloque).
+Puede redeclararse.
+javascript
+Copiar código
+var x = 10;
+------let--------
+Variable de bloque.
+No permite redeclaración en el mismo ámbito.
+javascript
+Copiar código
+let y = 20;
+-------const------
+Variable de bloque.
+Debe ser inicializada al declararse.
+No se puede reasignar (aunque los objetos pueden modificarse).
+javascript
+Copiar código
+const z = 30;
